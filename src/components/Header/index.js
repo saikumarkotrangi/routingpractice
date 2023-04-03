@@ -1,4 +1,3 @@
-// Write your JS code here
 import {Link} from 'react-router-dom'
 
 import {Component} from 'react'
@@ -12,9 +11,8 @@ export default class Header extends Component {
         <nav className="nav-container">
           <div className="wave-container">
             <img
-              className="wave-image"
-              alt="wave"
               src="https://assets.ccbp.in/frontend/react-js/wave-logo-img.png"
+              alt="wave"
             />
             <h1>Wave</h1>
           </div>
